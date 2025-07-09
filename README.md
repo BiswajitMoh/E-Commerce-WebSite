@@ -49,3 +49,6 @@ it have two parts 1.>Client
 
                   Install all necessary node modules by npm in both the client and server
                   then run the server and client by npm start.
+
+                  login As a Vendor and upload all the products that you want to sell .
+                  After that login as customer and start shopping.
