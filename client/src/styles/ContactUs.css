@@ -1,0 +1,134 @@
+.contact-us-container {
+
+  position: relative;
+
+  min-height: 100vh;
+
+  background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80');
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  display: flex;
+
+  align-items: center;
+
+  justify-content: center;
+
+  color: white;
+
+  box-sizing: border-box;
+
+}
+
+
+ 
+
+/* Overlay similar to Products Page */
+
+.contact-us-container .overlay {
+
+  background-color: rgba(0, 0, 0, 0.65);
+
+  width: 100%;
+
+  padding: 40px 20px;
+
+  box-sizing: border-box;
+
+}
+
+
+ 
+
+/* Reusable card style for contact */
+
+.contact-card {
+
+  background-color: rgba(255, 255, 255, 0.05);
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+
+  transition: box-shadow 0.3s ease;
+
+  color: white;
+
+}
+
+
+ 
+
+.contact-card:hover {
+
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.4);
+
+}
+
+
+ 
+
+/* Typography */
+
+.contact-details p {
+
+  font-size: 1.1rem;
+
+  color: #f1f1f1;
+
+  margin-bottom: 0.8rem;
+
+}
+
+
+ 
+
+.contact-us-message {
+
+  font-size: 1.1rem;
+
+  color: #ccc;
+
+}
+
+
+ 
+
+/* Responsive Design */
+
+@media (max-width: 768px) {
+
+  .contact-us-container {
+
+    padding-top: 60px; /* Only if navbar is fixed */
+
+  }
+
+
+ 
+
+  .contact-us-container .overlay {
+
+    padding: 30px 20px;
+
+  }
+
+
+ 
+
+  .contact-details p,
+
+  .contact-us-message {
+
+    font-size: 1rem;
+
+  }
+
+}
+
+
+ 

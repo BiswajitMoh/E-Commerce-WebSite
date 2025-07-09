@@ -1,0 +1,118 @@
+
+ 
+
+/* Vendor page container */
+
+.vendor-container {
+
+  position: relative;
+
+  min-height: 100vh;
+
+  background-image: url('https://images.unsplash.com/photo-1581093448793-5909786e2394?auto=format&fit=crop&w=1470&q=80');
+
+  background-size: cover;
+
+  background-position: center;
+
+  background-repeat: no-repeat;
+
+  display: flex;
+
+  color: black;
+
+  align-items: center;
+
+  justify-content: center;
+
+
+
+}
+
+
+ 
+
+/* Overlay to darken the background */
+
+.overlay {
+
+  background-color: rgba(0, 0, 0, 0.65);
+
+  width: 100%;
+
+  padding: 40px 20px;
+
+  box-sizing: border-box;
+
+
+
+}
+
+
+ 
+
+/* Vendor card styling */
+
+.category-card {
+
+  background-color: rgba(255, 255, 255, 0.05);
+
+  border-radius: 12px;
+
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+
+  transition: box-shadow 0.3s ease;
+
+  color: white;
+
+}
+
+
+ 
+
+.category-card:hover {
+
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.4);
+
+}
+
+
+ 
+
+.card-title {
+
+  font-weight: 600;
+
+}
+
+
+ 
+
+.card-text {
+
+  font-style: italic;
+
+  font-size: 1.1rem;
+
+  margin-bottom: 1rem;
+
+}
+
+@media (max-width: 768px) {
+
+  .vendors-container {
+
+    padding-top: 60px;
+
+  }
+
+
+ 
+
+  .overlay {
+
+    padding: 20px;
+
+  }
+
+}

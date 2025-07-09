@@ -1,0 +1,60 @@
+.faq-container {
+
+    position: relative;
+
+    min-height: 100vh;
+
+    background-image: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1470&q=80');
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    color: black;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+  }
+
+
+
+  .overlay {
+
+    background-color: rgba(0, 0, 0, 0.65);
+
+    width: 100%;
+
+    padding: 40px 20px;
+
+    box-sizing: border-box;
+
+  }
+
+
+
+  .faq-list .faq-item h4 {
+
+    font-weight: 600;
+
+    font-size: 1.2rem;
+
+  }
+
+
+
+  .faq-list .faq-item p {
+
+    font-size: 1.05rem;
+
+    color: #f1f1f1;
+
+    margin-top: 0.5rem;
+
+  }
+

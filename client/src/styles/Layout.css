@@ -1,0 +1,62 @@
+/* Layout adjustments for fixed navbar */
+
+body {
+
+    margin: 0;
+
+    padding: 0;
+
+    font-family: 'Inter', sans-serif;
+
+    padding-top: 70px; /* Matches navbar height */
+
+  }
+
+
+
+  /* Optional: apply to a main layout wrapper if used */
+
+  .layout-content {
+
+    min-height: calc(100vh - 70px);
+
+    display: flex;
+
+    flex-direction: column;
+
+  }
+
+
+
+  /* Prevents white space below footer if using flex layouts */
+
+  .page-container {
+
+    flex: 1;
+
+    display: flex;
+
+    flex-direction: column;
+
+  }
+
+
+
+  /* Ensure all routed pages fill height cleanly */
+
+  .page-section {
+
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding: 2rem 1rem;
+
+    background-color: #f8f9fa; /* Optional default background */
+
+  }
+
